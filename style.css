@@ -1,0 +1,31 @@
+body{
+    height: 90vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+#clock{
+    font-size: 45px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    background-color: black;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 11px;
+   box-shadow: 1px 2px 7px 4px;
+
+
+}
+@media (max-width: 480px) {
+   #clock{
+    font-size: 35px;
+   }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    #clock{
+        font-size: 40px;
+       }
+    }
